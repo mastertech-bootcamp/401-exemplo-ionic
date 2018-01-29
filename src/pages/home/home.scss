@@ -1,3 +1,14 @@
 page-home {
+    .scroll-content{
+        overflow-y: hidden;
+    }
+    
+    img{
+        transform: translateY(300%);
+        transition: 1s;
+    }
 
+    img.ativa{
+        transform: translateY(0%);
+    }
 }
